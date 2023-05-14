@@ -1,0 +1,15 @@
+
+
+/* Laptop */
+@media (min-width:1191px){
+  .main-header {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+@media (min-width: 992px){
+    .u-only-small {
+        display: none !important;
+    }
+    
+}
