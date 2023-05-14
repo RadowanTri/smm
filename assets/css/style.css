@@ -192,8 +192,9 @@
   max-height: calc(100vh - 80px);
 
   background: #FFFFFF;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-  overflow-y: hidden;
+  overflow-y: scroll;
+  overflow: auto;
+
   
 }
 .custom-scrollbar {
@@ -216,10 +217,7 @@
   background: rgb(165 69 188);
 }
 
-.side-a, .side-b{
-  overflow-y: scroll;
-  animation: background 5s infinite alternate;
-}
+
 /* 
 @keyframes background {
   from {

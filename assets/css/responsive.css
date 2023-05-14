@@ -1,12 +1,31 @@
 
 
 /* Laptop */
-@media (min-width:1191px){
+@media (min-width:1092px){
+  
   .main-header {
     padding-left: 80px;
     padding-right: 80px;
   }
+
+  .grid-post-area{
+    grid-template-columns:600px 300px;
+  }
+
 }
+@media (min-width:1192px){
+  
+  .main-header {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .grid-post-area{
+    grid-template-columns:667px 300px;
+  }
+
+}
+
 @media (min-width: 992px){
     .u-only-small {
         display: none !important;
