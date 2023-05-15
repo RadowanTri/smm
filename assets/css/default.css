@@ -1101,16 +1101,23 @@ Last change:    24/08/21 [fixed Float bug, vf]
     font-size: 14px;
     color: #23272A;
    }
+   .f-12{
+    font-weight: 400;
+    font-size: 14px;
+    color: #23272A;
+   }
+   .f-16,
    .f-16-t{
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.01em;
     color: #23272A;
    }
+  
+   .f-18,
    .f-18-t{
     font-weight: 500;
     font-size: 18px;
-
     letter-spacing: 0.01em;
     color: #23272A;
    }
@@ -1120,7 +1127,11 @@ Last change:    24/08/21 [fixed Float bug, vf]
     text-align: center;
     letter-spacing: 0.01em;
    }
-   
+   .f-25,
+   .f-18,
+   .f-16{
+    letter-spacing: 0em;
+   }
    .po-relative{
     position: relative;
    }
@@ -1133,8 +1144,36 @@ Last change:    24/08/21 [fixed Float bug, vf]
   .color-i{
     color: #7C2A90 !important;
   }
+  .color-b{
+    color: #23272A !important;
+  }
+  .color-w{
+    color: #fff !important;
+  }
   .box-shadow2{
     background: #FFFFFF;
-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+  .reject-btn,
+  .accept-btn{
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 6px 15px;
+    width: 88px;
+    transition: .3s;
+  } 
+  .accept-btn{
+    background: transparent;
+    border: 1px solid #7C2A90;
+  } 
+  .accept-btn:hover{
+    background: #7C2A90;
+    color: #fff;
+  }
+  .reject-btn{
+    color: #fff;
+    background: #F16C7A;
   }
