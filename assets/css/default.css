@@ -1103,7 +1103,7 @@ Last change:    24/08/21 [fixed Float bug, vf]
    }
    .f-12{
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     color: #23272A;
    }
    .f-16,
@@ -1176,4 +1176,7 @@ Last change:    24/08/21 [fixed Float bug, vf]
   .reject-btn{
     color: #fff;
     background: #F16C7A;
+  }
+  .flex-1{
+    flex:1
   }

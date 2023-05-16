@@ -83,7 +83,7 @@
   border-radius: 50%;
   background-color: var(--balance1);
   position: absolute;
-  top: -10px;
+  top: -15px;
   right: -15px;
 }
 
@@ -105,8 +105,13 @@
   margin: .5rem 0;
   background-color: #B1B8BE;
 }
-.main-header .friend-request .dropdown-menu{
+.main-header .friend-request  .dropdown-menu{
   min-width: 260px;
+}
+.main-header .cart-request .dropdown-menu,
+.main-header .notifaction-request .dropdown-menu,
+.main-header .message-request .dropdown-menu{
+  min-width: 325px;
 }
 .main-header .custom-dropdown-menu .notify-title{
   font-weight: 400;
@@ -114,9 +119,66 @@
   color: #23272A;
   
 }
+
 .main-header .request-info .text-truncate {
   width: 125px;
 }
+
+.main-header .notifaction-info .text-truncate{
+  width: 175px;
+}
+.main-header .cart-info .text-truncate{
+  width: 195px;
+}
+.main-header .message-info .text-truncate {
+  width: 220px;
+}
+
+
+.main-header .cart-info .cart-items input::-webkit-outer-spin-button,
+.main-header .cart-info .cart-items input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.common-request-element .profile-post-img {
+  width: 35px;
+}
+/* Firefox */
+.main-header .cart-info .cart-items input[type=number] {
+  -moz-appearance: textfield;
+}
+.main-header .cart-info .cart-items input[type=button] {
+  width: 24px;
+  height: 24px;
+  background: #F8DAFF;
+  border-radius: 2px;
+  color: #23272A;
+}
+
+
+.main-header  .notifaction-request-element, 
+.main-header  .message-request-element,
+.main-header  .friend-request-element {
+  background: #FBFBFB;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.main-header  .cart-request-element {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #C8A6D0;
+  margin-bottom: 10px;
+}
+
+.main-header  .notifaction-request-element:hover,
+.main-header  .message-request-element:hover,
+.main-header  .friend-request-element:hover {
+  background: #FAE6FF;
+}
+/* .main-header .profile-post-img{
+  max-width: 35px
+} */
 /* .main-header .main-nav-button img, 
 .main-header .main-nav-button svg {
   margin-bottom: -15px;
@@ -130,16 +192,7 @@
 .main-header  .main-nav-button.dropdown-toggle::after {
   display:none;
 }
-.main-header  .friend-request-element {
- 
-  background: #FBFBFB;
-  border-radius: 8px;
-  padding: 15px;
-  margin-bottom: 10px;
-}
-.main-header  .friend-request-element:hover {
-  background: #FAE6FF;
-}
+
 .icon-hamburger {
   width: 20px;
   height: 3px;
